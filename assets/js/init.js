@@ -111,7 +111,7 @@ function edrea_tm_circular_progress(){
 			emptyFill: 'rgba(0,0,0,0)',
 			startAngle: -Math.PI/2
 		  }).on('circle-animation-progress', function(event, progress, stepValue) {
-				element.find('.number').text(parseInt(stepValue.toFixed(2)*100) + '%');
+				element.find('.number').text(parseInt(stepValue.toFixed(2)*100) + '% ' + element.attr('id'));
 		  });
 		  element.circleProgress('value', 1.0);
 		  setTimeout(function() { element.circleProgress('value', value); }, 1400);
