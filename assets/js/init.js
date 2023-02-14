@@ -575,9 +575,7 @@ function edrea_tm_swiper(){
 			slidesPerView: 1,
 			spaceBetween: 0,
 			loopAdditionalSlides: 1,
-			autoplay: {
-				delay: 6000,
-			},
+			autoplay: false,
 			
 			navigation: {
 				nextEl: '.my_next',
