@@ -1138,7 +1138,7 @@ h6 {
   content: var(--tw-content);
 }
 
-.edrea_tm_modalbox .about_popup_details .testimonial .owl-carousel .owl-stage-outer {
+/* .edrea_tm_modalbox .about_popup_details .testimonial .owl-carousel .owl-stage-outer {
   overflow: hidden;
   overflow: visible;
 }
@@ -1149,7 +1149,7 @@ h6 {
 
 .edrea_tm_modalbox .about_popup_details .testimonial .owl-item {
   opacity: 0;
-}
+} */
 
 .edrea_tm_portfolio .portfolio_list .list_inner:hover .details {
   bottom: 20px;
