@@ -25,7 +25,7 @@ jQuery(document).ready(function(){
 	hashtag();
 	edrea_tm_swiper();
 	edrea_tm_headline();
-	edrea_tm_location();
+	// edrea_tm_location();
 	edrea_tm_color_switcher();
 	edrea_tm_cursor_switcher();
 	edrea_tm_switcher_opener();
@@ -221,7 +221,7 @@ function edrea_tm_about_popup(){
 		edrea_tm_my_progress();
 		edrea_tm_circular_progress();
 		edrea_tm_mycarousel();
-		edrea_tm_location();
+		// edrea_tm_location();
 	});
 	close.on('click',function(){
 		modalBox.removeClass('opened');
@@ -626,20 +626,20 @@ function edrea_tm_swiper(){
 // -----------------  LOCATION  --------------------
 // -------------------------------------------------
 
-function edrea_tm_location(){
+// function edrea_tm_location(){
 	
-	"use strict";
+// 	"use strict";
 	
-	var button		= jQuery('.href_location');
-	button.on('click',function(){
-		var element		= jQuery(this);
-		var address		= element.text();
-		address			= address.replace(/\ /g,'+');
-		var text		= 'https://maps.google.com?q=';
-		window.open(text+address);
-		return false;
-	});
-}
+// 	var button		= jQuery('.href_location');
+// 	button.on('click',function(){
+// 		var element		= jQuery(this);
+// 		var address		= element.text();
+// 		address			= address.replace(/\ /g,'+');
+// 		var text		= 'https://maps.google.com?q=';
+// 		window.open(text+address);
+// 		return false;
+// 	});
+// }
 
 // -----------------------------------------------------
 // ---------------------   SWITCHERS    ----------------
